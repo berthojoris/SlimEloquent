@@ -1,0 +1,12 @@
+{
+    "require": {
+        "slim/slim": "2.*",
+        "illuminate/database": "*",
+		"guzzlehttp/guzzle": "4.*",
+		"ircmaxell/security-lib": "1.0.*@dev"
+    },
+    "autoload": {
+        "files": [ "app/config.php" ],
+        "classmap": [ "app/models" ]
+    }
+}
